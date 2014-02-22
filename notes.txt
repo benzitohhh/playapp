@@ -1,0 +1,7 @@
+
+# Heroku console Successful launch:
+-----> Compressing... done, 84.3MB
+-----> Launching... done, v6
+       http://aqueous-dawn-5681.herokuapp.com deployed to Heroku
+
+
