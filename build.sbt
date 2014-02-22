@@ -11,4 +11,4 @@ libraryDependencies ++= Seq(
 play.Project.playJavaSettings
 
 // Add Grunt to build phase
-(compile in Compile) <<= (compile in Compile) dependsOn (gruntTask("build"))
+//(compile in Compile) <<= (compile in Compile) dependsOn (gruntTask("build"))

@@ -1,5 +1,6 @@
 'use strict';
 
+// See https://github.com/buildfirst/heroku-grunt
 module.exports = function (grunt) {
 
   grunt.initConfig({
@@ -11,6 +12,8 @@ module.exports = function (grunt) {
     }
   });
 
-  //grunt.loadNpmTasks('grunt-contrib-jshiZnt');
-  grunt.registerTask('heroku', []);
+  //grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.registerTask('heroku', [
+    // TODO: add tasks here
+  ]);
 };
