@@ -12,7 +12,7 @@ log
 logs
 modules
 precompiled
-project/project
+project/project/target
 project/target
 target
 tmp
