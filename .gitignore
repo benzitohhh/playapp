@@ -3,6 +3,7 @@
 .*
 # except for .gitignore
 !.gitignore
+!.buildpacks
 
 # Ignore Play! working directory #
 db
