@@ -9,9 +9,9 @@
 
 module.exports = function (grunt) {
     // show elapsed time at the end
-    require('time-grunt')(grunt);
+    //require('time-grunt')(grunt);
     // load all grunt tasks
-    require('load-grunt-tasks')(grunt);
+    //require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
         // configurable paths
@@ -168,8 +168,10 @@ module.exports = function (grunt) {
         'build'
     ]);
 
+    
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.registerTask('heroku', [
-        'build'
+        'cssmin'
     ]);
 
 };
