@@ -11,6 +11,6 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.registerTask('heroku', ['jshint']);
+  //grunt.loadNpmTasks('grunt-contrib-jshiZnt');
+  grunt.registerTask('heroku', []);
 };
