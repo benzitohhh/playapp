@@ -12,3 +12,5 @@ heroku config:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-mult
 https://github.com/heroku/heroku-buildpack-scala
 
 https://github.com/heroku/heroku-buildpack-nodejs
+
+https://github.com/mbuchetics/heroku-buildpack-nodejs-grunt.git
